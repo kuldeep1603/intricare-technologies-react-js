@@ -1,0 +1,195 @@
+/* =========== style css file  ======== large device desktop friendly  ========== */
+
+/* =========== banner section ========== */
+.banner {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://img.leadcrm.io/wp-content/uploads/2025/07/08045913/leadcrm-bg-homepage-768x361.webp");
+    width           : 100%;
+}
+
+.banner .pattern {
+    width: 230px;
+    top  : 85%;
+    left : 1%;
+}
+
+.banner .rocket-card {
+    border: 0.85px solid rgba(154, 204, 255, 1)
+}
+
+.banner .title {
+    font-size: 45px;
+}
+
+.banner .subtitle {
+    font-size: 18px;
+}
+
+/* =========== banner section ========== */
+
+
+/* =========== works section ========== */
+.works {
+    background: #EAEFFA;
+}
+
+.works .card {
+    transition: all 0.3s ease-in-out !important;
+}
+
+.works .card .title {
+    font-size: 80px;
+}
+
+.works .card:hover {
+    border    : 2px solid var(--primary-color) !important;
+    transform : translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* =========== works section ========== */
+
+
+/* =========== start-today section========== */
+
+.start-today {
+    background: #EAEFFA;
+}
+
+/* =========== start-today section========== */
+
+/* =========== footer section  ========== */
+footer {
+    background: linear-gradient(277.75deg, rgba(1, 178, 216, 0.22) 0%, rgba(1, 178, 216, 0.07) 77%);
+}
+
+footer .logo {
+    width: 9.375rem;
+}
+
+footer a:hover {
+    color: var(--primary-color) !important;
+}
+
+
+/* =========== footer section  ========== */
+
+/* =========== sales-solutions section ========== */
+
+.sales-solutions .nav-pills .nav-item button.active {
+    font-weight  : 600;
+    color        : var(--secondary-color);
+    border-bottom: 4px solid var(--secondary-color) !important;
+}
+
+.sales-solutions .nav-pills .nav-item .nav-link {
+    color: #4C4C4C;
+}
+
+.sales-solutions .card {
+    background: #F0F4FD;
+}
+
+.sales-solutions .sales-icon {
+    width : 70px;
+    height: 70px;
+    top   : 10%;
+    left  : -1%;
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--white-color);
+    border-radius   : 2px;
+}
+
+.sales-solutions .nav-pills::-webkit-scrollbar {
+    width : 3px !important;
+    height: 3px !important;
+}
+
+
+/* =========== sales-solutions section ========== */
+
+/* =========== daily  section ========== */
+.vs-divider {
+    height         : 100%;
+    border-left    : 2px solid #ddd;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    padding        : 0 10px;
+    position       : absolute;
+    top            : 0%;
+    left           : 50%;
+    z-index        : -1;
+    width          : 5% !important;
+}
+
+.vs-text {
+    position  : absolute;
+    top       : 50%;
+    background: white;
+    left      : 48%;
+    width     : 5% !important;
+    z-index   : 10;
+    right     : 50%;
+}
+
+.daily .pattern {
+    left : 60%;
+    width: 230px;
+    top  : 85%;
+}
+
+.daily .card {
+    transition: all 0.3s ease-in-out;
+}
+
+.daily .red-card:hover {
+    transform : translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border    : 1px solid var(--red-color) !important;
+}
+
+.daily .green-card:hover {
+    transform : translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border    : 1px solid var(--green-color) !important;
+}
+
+
+/* =========== daily  section ========== */
+
+
+/* =========== supported  section ========== */
+.supported .support-1 {
+    width : 70px;
+    height: 70px;
+    top   : 0%;
+    right : 30%;
+}
+
+.supported .support-2 {
+    width   : 100px;
+    position: absolute;
+    height  : 100px;
+    bottom  : -3%;
+    z-index : -1;
+    right   : -10px;
+}
+
+/* =========== supported  section ========== */
+
+/* =========== testimonials section ========== */
+.testimonials .ball-icon {
+    width : 60px;
+    top   : -5%;
+    right : 1%;
+    height: 60px;
+}
+
+/* =========== testimonials section ========== */

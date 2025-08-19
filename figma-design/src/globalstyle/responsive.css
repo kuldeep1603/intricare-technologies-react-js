@@ -1,0 +1,121 @@
+/* ======== responsive css file  ======== small device mobile friendly  ========== */
+@media screen and (max-width: 64rem) {
+
+    /* ======== daily section  ========== */
+    .daily .pattern {
+        top  : 90% !important;
+        width: 200px !important;
+        left : 65%;
+    }
+
+    /* ======== daily section ========== */
+}
+
+@media screen and (max-width:62.25rem) {
+
+    /* ======== banner section  ========== */
+    .banner .pattern {
+        display: none;
+    }
+
+    /* ======== banner section  ========== */
+
+
+}
+
+
+@media screen and (max-width: 48rem) {
+
+    /* ======== common  ========== */
+    .main-title {
+        font-size: 1.5625rem;
+    }
+
+    /* ======== common  ========== */
+
+    /* ======== banner section  ========== */
+
+    .banner .title {
+        font-size: 42px !important;
+    }
+
+    /* ======== banner section  ========== */
+
+}
+
+@media screen and (max-width: 36rem) {
+
+    /* ======== common  ========== */
+    .main-title {
+        font-size: 1.25rem;
+    }
+
+    .section {
+        padding: 2.5rem 0rem;
+    }
+
+    /* ======== common  ========== */
+
+
+
+    /* ======== daily section  ========== */
+    .daily .pattern {
+        display: none;
+    }
+
+    /* ======== daily section  ========== */
+
+    /* ======== banner section  ========== */
+    .banner .title {
+        font-size : 32px !important;
+        margin-top: 15px;
+    }
+
+    /* ======== banner section  ========== */
+    /* offcanvas  */
+    .offcanvas {
+        width: 60% !important;
+    }
+
+    /* offcanvas  */
+}
+
+
+@media screen and (max-width: 25rem) {
+
+    /* ======== banner section  ========== */
+    .banner .title {
+        font-size : 30px !important;
+        margin-top: 20px;
+    }
+
+    .banner .pattern {
+        display: block;
+    }
+
+    .banner .available-chrome,
+    .banner button {
+        display: block;
+        width  : 90%;
+    }
+
+    /* ======== banner section  ========== */
+}
+
+@media screen and (max-width: 25rem) {
+
+    /* ======== banner section  ========== */
+    .banner .title {
+        font-size : 28px !important;
+        margin-top: 20px;
+    }
+
+    /* ======== banner section  ========== */
+
+    /* offcanvas  */
+    .offcanvas {
+        width: 60% !important;
+    }
+
+    /* offcanvas  */
+}

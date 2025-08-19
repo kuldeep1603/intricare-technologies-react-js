@@ -1,0 +1,505 @@
+/* ======== common css classes file for reusable purpose ======== */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    /* ======== fonts  ======== */
+    --primary-font  : "Exo 2", sans-serif;
+    --secondary-font: "Poppins", sans-serif;
+    --tertiary-font : "Sriracha", cursive;
+
+    /* ======== color ======== */
+    --primary-color     : #2D96BC;
+    --secondary-color   : #090F4E;
+    --tertiary-color    : #B3FC6A;
+    --fourth-color      : #F9F0F8;
+    --green-color       : #097737;
+    --gold-color        : #C58920;
+    --light-green       : #E6FFF1;
+    --red-color         : #FF4C51;
+    --red-color-1       : #D24B68;
+    --red-color--1-light: #FFF7F8;
+    --light-red         : #FFDCD4;
+    --black-color       : #000000;
+    --white-color       : #ffffff;
+    --light-black       : #373737;
+    --light-black-1     : #2C2C2C;
+    --text-color-1      : #63657E;
+    --bg-linear         : linear-gradient(90.37deg, #5ED3FF -12.35%, #6EC6FE 0.67%, #EB65F4 100.24%, #FD58F2 114.28%);
+
+}
+
+* {
+    margin         : 0;
+    padding        : 0;
+    box-sizing     : border-box;
+    outline        : none;
+    text-decoration: none;
+    list-style     : none;
+}
+
+body {
+    font-family: var(--primary-font) !important;
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    outline    : none;
+    overflow-x : hidden;
+    position   : relative;
+    transition : all 0.3s ease-in-out !important;
+    user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+b,
+li,
+ul,
+ol,
+a {
+    margin         : 0;
+    padding        : 0;
+    box-sizing     : border-box;
+    outline        : none;
+    list-style     : none;
+    text-decoration: none;
+    font-size      : 1rem;
+    transition     : all 0.3s ease-in-out !important;
+}
+
+.img-width {
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--white-color);
+    border-radius   : 2px;
+}
+
+.navbar-toggler:hover,
+.btn-close:hover {
+    box-sizing: none;
+    box-shadow: none;
+    border    : none;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-sizing: none;
+    box-shadow: none;
+    border    : none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* ======== fonts  ======== */
+.primary-font {
+    font-family: var(--primary-font) !important;
+}
+
+.secondary-font {
+    font-family: var(--secondary-font) !important;
+}
+
+.tertiary-font {
+    font-family: var(--tertiary-font) !important;
+}
+
+/* ======== fonts  ======== */
+
+/* ======== bg color  ======== */
+.bg-primary-1 {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-secondary-1 {
+    background-color: var(--secondary-color) !important;
+}
+
+.bg-tertiary-1 {
+    background-color: var(--tertiary-color) !important;
+}
+
+.bg-black {
+    background-color: var(--black-color) !important;
+}
+
+.bg-white {
+    background-color: var(--white-color) !important;
+}
+
+.bg-linear {
+    background: var(--bg-linear);
+}
+
+.bg-fourth-color {
+    background-color: var(--fourth-color) !important;
+}
+
+.bg-green-color {
+    background: var(--green-color) !important;
+}
+
+.bg-red-color {
+    background: var(--red-color) !important;
+}
+
+.bg-light-red {
+    background: var(--light-red) !important;
+}
+
+.bg-red-color-1 {
+    background: var(--red-color-1) !important;
+}
+
+.bg-red-color-1-light {
+    background: var(--red-color--1-light) !important;
+}
+
+.bg-light-green {
+    background: var(--light-green) !important;
+}
+
+.bg-light-black {
+    background-color: var(--light-black);
+}
+
+/* ======== bg color  ======== */
+
+/* ======== text color  ======== */
+
+.primary-color-1 {
+    color: var(--primary-color) !important;
+}
+
+.secondary-color-1 {
+    color: var(--secondary-color) !important;
+}
+
+.tertiary-color-1 {
+    color: var(--tertiary-color) !important;
+}
+
+.light-black {
+    color: var(--light-black) !important;
+}
+
+.light-black-1 {
+    color: var(--light-black-1) !important;
+}
+
+.text-white {
+    color: var(--white-color) !important;
+}
+
+.text-black {
+    color: var(--black-color) !important;
+}
+
+.green-color {
+    color: var(--green-color) !important;
+}
+
+.red-color {
+    color: var(--red-color) !important;
+}
+
+.light-red {
+    color: var(--red-color) !important;
+}
+
+.red-color-1 {
+    color: var(--red-color-1) !important;
+}
+
+.red-color-1-light {
+    color: var(--red-color--1-light) !important;
+}
+
+.light-green-color {
+    color: var(--light-green) !important;
+}
+
+.text-color-1 {
+    color: var(--text-color-1);
+}
+
+.gold-color {
+    color: var(--gold-color);
+}
+
+/* ======== text color  ======== */
+
+
+/* ======== font size  ======== */
+.fs-8 {
+    font-size: 8px;
+}
+
+.fs-10 {
+    font-size: 10px !important;
+}
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.fs-13 {
+    font-size: 13px !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-15 {
+    font-size: 15px !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fs-17 {
+    font-size: 17px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+.fs-22 {
+    font-size: 22px !important;
+}
+
+.fs-24 {
+    font-size: 24px !important;
+}
+
+.fs-26 {
+    font-size: 26px !important;
+}
+
+.fs-28 {
+    font-size: 28px !important;
+}
+
+.fs-30 {
+    font-size: 30px !important;
+}
+
+.fs-32 {
+    font-size: 32px !important;
+}
+
+.fs-34 {
+    font-size: 34px !important;
+}
+
+.fs-36 {
+    font-size: 36px !important;
+}
+
+.fs-38 {
+    font-size: 38px !important;
+}
+
+.fs-40 {
+    font-size: 40px !important;
+}
+
+.fs-42 {
+    font-size: 42px !important;
+}
+
+.fs-44 {
+    font-size: 44px !important;
+}
+
+.fs-46 {
+    font-size: 46px !important;
+}
+
+.fs-48 {
+    font-size: 48px !important;
+}
+
+.fs-50 {
+    font-size: 50px !important;
+}
+
+/* ======== font size  ======== */
+
+
+/* ======== font weight  ======== */
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+/* ======== font weight  ======== */
+
+a {
+    text-decoration: none !important;
+}
+
+/* ======== bg img  ======== */
+.bg-img {
+    background-repeat  : no-repeat;
+    background-position: center center;
+    background-size    : cover;
+}
+
+/* ======== bg img  ======== */
+
+
+del {
+    text-decoration: line-through;
+}
+
+.text-ellipsis {
+    white-space  : nowrap;
+    width        : 100%;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+}
+
+/* ======== letter-spacing  ======== */
+.ls-1 {
+    letter-spacing: 1px;
+}
+
+.ls-2 {
+    letter-spacing: 2px;
+}
+
+.ls-3 {
+    letter-spacing: 3px;
+}
+
+/* ======== letter-spacing  ======== */
+
+/* ======== border  ======== */
+
+.border-primary-all {
+    border: 1px solid var(--primary-color);
+}
+
+.border-secondary-all {
+    border: 1px solid var(--secondary-color);
+}
+
+/* ======== border  ======== */
+
+/* ======== btn ======== */
+
+.primary-btn:hover {
+    background: transparent !important;
+    color     : var(--secondary-color) !important;
+    border    : 1px solid var(--primary-color) !important;
+    transform : scale(1.001);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.secondary-btn:hover {
+    background: transparent !important;
+    color     : var(--green-color) !important;
+    border    : 1px solid var(--green-color) !important;
+    transform : scale(1.001);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tertiary-btn:hover {
+    background: var(--primary-color) !important;
+    transform : scale(1.001);
+    color     : var(--white-color) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ======== btn ======== */
+.section {
+    padding: 70px 0px;
+}
+
+/* ======== swiper  ======== */
+.custom-next::after,
+.custom-prev::after {
+    font-size: 15px;
+    color    : #000;
+}
+
+.custom-next,
+.custom-prev {
+    width           : 35px;
+    height          : 35px;
+    background-color: transparent;
+    border-radius   : 50%;
+    border          : 1px solid var(--light-black);
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    cursor          : pointer;
+}
+
+
+
+
+
+/* ======== swiper  ======== */
+
+/* ======== main heading  ======== */
+.main-title {
+    font-size: 30px;
+}
+
+/* ======== main heading  ======== */
